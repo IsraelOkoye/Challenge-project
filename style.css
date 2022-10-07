@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-image:url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    
+    background-color:#ff7978 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.learn-code {
+    color: white;
+    font-size: 40;
+    font-weight: bold;
+    position: absolute;
+    top: 3.8em;
+    left: 4em;
+    line-height:45px;
+}
+
+.experience {
+    color: white;
+    position: absolute;
+    top: 23em;
+    left: 12em;
+}
+
+.first-button {
+    background-color:#5d54a3;
+    color:white;
+    border-radius:0.5em;
+    border: none;
+    padding: 1em;
+    width: 33.5em;
+    position: absolute;
+    left: 44.3em;
+    top: 5em;
+    box-shadow: -1px 11px 5px -3px rgba(217,103,102,1);
+    cursor: pointer;
+}
+
+.my-span {
+    color:#e4dfff;
+}
+
+.my-section {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 7.8em;
+    left: 37em;
+    box-shadow: -1px 11px 5px -3px rgba(217,103,102,1);
+}
+input {
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+}
+
+.second-button {
+    background-color:#37cc8a;
+    color: white;
+    border-radius: 0.4em;
+    padding: 1em;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.nonout {
+    border: 1px solid #9d97bd;
+}
+
+.last-span {
+    color:#ffaba8 ;
+}
+
+small {
+    color: #e0dee9;
+}
+
+#my {color: red;}
